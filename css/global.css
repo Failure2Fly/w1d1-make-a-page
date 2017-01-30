@@ -1,5 +1,38 @@
 body {
-    background: #39A2AE;
     color: #fff;
     text-align: center;
+}
+html { 
+  background: url(/img/index.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.actors {
+    position: relative;
+    top: -254px;
+}
+
+.actors img {
+    transition: all .3s ease;
+}
+
+.actors img:hover {
+    opacity: 0;
+}
+.names {
+    position: relative;
+    align: center;
+}
+table {
+    color: black;
+    text-align: center;
+}
+th[scope="col"] {
+    font-size: 20px;
+    text: bold;
+}
+th[scope="row"]{
+    font-size: 15px;
 }
